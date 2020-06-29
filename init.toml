@@ -39,9 +39,12 @@
     timeoutlen = 50 
     # google suggest
     enable_googlesuggest = true
+    # nerdtree right
+    filetree_direction = "left"
     # mappings
     bootstrap_before = "customConfig#before"
     bootstrap_after = "customConfig#after"
+
 
 # Enable autocomplete layer
 [[layers]]
@@ -56,3 +59,7 @@ default_height = 30
 
 [[layers]]
 name = "lang#go"
+
+
+[[layers]]
+name = "lang#python"
