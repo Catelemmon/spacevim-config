@@ -3,7 +3,11 @@
 自用如果喜欢可以拿去
 
 # 食用方法
-执行 `git clone git@github.com:Catelemmon/spacevim-config.git ~/.SpaceVim`
+执行
+```
+git clone git@github.com:Catelemmon/spacevim-config.git ~/.SpaceVim.d
+git clone https://github.com:Catelemmon/spacevim-config.git ~/.SpaceVim.d
+```
 
 # 自定义配置
 `autoload/customConfig.vim` 您可以在其中配置您在加载SpaceVim主配置之前及之后的一些设置
